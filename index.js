@@ -13,12 +13,12 @@ if (platform === 'darwin' && arch !== 'x64') {
   process.exit(1)
 }
 
-var markertmakerPath = path.join(
+var marketmakerPath = path.join(
   __dirname,
   'bin',
   platform,
   arch,
-  platform === 'win32' ? 'markertmaker.exe' : 'markertmaker'
+  platform === 'win32' ? 'marketmaker.exe' : 'marketmaker'
 )
 
-exports.path = markertmakerPath;
+exports.path = marketmakerPath;
