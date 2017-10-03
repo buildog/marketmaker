@@ -1,0 +1,29 @@
+{
+  "name": "marketmaker",
+  "version": "1.0.0",
+  "description": "Marketmaker static binaries for Mac OSX and Linux and Windows",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buildog/marketmaker"
+  },
+  "keywords": [
+    "ffmpeg",
+    "static",
+    "library",
+    "binary",
+    "binaries",
+    "mac",
+    "linux",
+    "windows"
+  ],
+  "author": "Adrien Remacle <wouf@buildog.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buildog/marketmaker/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.3.2"
+  }
+}
